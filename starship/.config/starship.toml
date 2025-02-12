@@ -1,9 +1,9 @@
 format = """
-[](#1e2030)\
-[  ](bg:#1e2030 fg:#c8d3f5)\
-[](bg:#3e68d7 fg:#1e2030)\
+[](#3b4261)\
+[  ](bg:#3b4261 fg:#82aaff)\
+[](bg:#82aaff fg:#3b4261)\
 $directory\
-[](fg:#3e68d7 bg:#3b4261)\
+[](fg:#82aaff bg:#3b4261)\
 $git_branch\
 $git_status\
 [](fg:#3b4261 bg:#222436)\
@@ -11,13 +11,13 @@ $nodejs\
 $rust\
 $golang\
 $php\
-[](fg:#222436 bg:#191B29)\
+[](fg:#222436 bg:#3b4261)\
 $time\
-[ ](fg:#191B29)\
+[ ](fg:#3b4261)\
 \n$character"""
 
 [directory]
-style = "fg:#c8d3f5 bg:#3e68d7"
+style = "fg:#3b4261 bg:#82aaff"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -60,5 +60,5 @@ format = '[[ $symbol ($version) ](fg:#82aaff bg:#222436)]($style)'
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:#191B29"
-format = '[[  $time ](fg:#c8d3f5 bg:#191B29)]($style)'
+style = "bg:#3b4261"
+format = '[[  $time ](fg:#82aaff bg:#3b4261)]($style)'

@@ -1,0 +1,13 @@
+theme = tokyonight_storm_lazyvim
+
+font-family = "PlemolJP Console NF"
+font-size = 13
+# font-codepoint-map = U+E000-U+F8FF=BlexMono Nerd Font
+
+window-padding-balance = true
+window-theme = ghostty
+
+cursor-style = block
+cursor-style-blink = true
+
+background-opacity = 0.7

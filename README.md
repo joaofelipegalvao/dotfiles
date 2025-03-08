@@ -14,6 +14,7 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
 - lazygit config
 - yazi
 - starship
+- Terminal Ghostty
 
 ## Neovim setup
 
@@ -30,14 +31,23 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
   - **[wezterm](https://github.com/wezterm/wezterm)** (Linux, Macos & Windows)
   - **[alacritty](https://github.com/alacritty/alacritty)** (Linux, Macos & Windows)
   - **[iterm2](https://iterm2.com/)** (Macos)
+  - **[Ghostty](https://github.com/ghostty/ghostty)** - (Linux & Macos)
 - **[Tokyo Night Lazyvim](https://github.com/folke/tokyonight.nvim)**
+
+## Yazi (Gerenciador de janelas para o terminal)
+
+- **[Yazi](https://yazi-rs.github.io/)** - Gerenciador de janelas para o terminal, simples e altamente configurável.
+
+## Tmux (Gerenciador de terminal multiplexado)
+
+- **[Tmux](https://github.com/tmux/tmux)** - O tmux é um multiplexador de terminal que permite dividir o terminal em várias sessões, tornando o gerenciamento do terminal mais eficiente e flexível.
 
 ## Configuração do Shell (macOS & Linux)
 
 - **[Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)**
-- **[Starship](https://github.com/starship/starship)**
-- **[Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**
-- **[Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)**
+- **[Starship](https://github.com/starship/starship)** - Prompt de linha de comando altamente personalizável
+- **[Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)** - Sugestões automáticas de comandos no Zsh
+- **[Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)** - Realça a sintaxe dos comandos no Zsh
 - **[Nerd fonts](https://github.com/ryanoasis/nerd-fonts)** - Fontes modificadas para uso no desenvolvimento. Eu uso **[PlemolJP](https://github.com/yuru7/PlemolJP)** e BlexMono.
 - **[Zoxide](https://github.com/ajeetdsouza/zoxide)** Navegação entre diretórios.
 - **[Eza](https://github.com/eza-community/eza)** - Substituto do <code>ls</code>

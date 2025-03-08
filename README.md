@@ -15,14 +15,6 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
 - yazi
 - starship
 
-## Conteúdo
-
-- vim (Neovim) config
-- tmux config
-- lazygit config
-- yazi
-- starship
-
 ## Neovim setup
 
 ### Requisitos

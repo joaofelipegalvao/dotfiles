@@ -34,9 +34,9 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
   - **[Ghostty](https://github.com/ghostty/ghostty)** - (Linux & Macos)
 - **[Tokyo Night Lazyvim](https://github.com/folke/tokyonight.nvim)**
 
-## Yazi (Gerenciador de janelas para o terminal)
+## Yazi (Gerenciador de arquivos)
 
-- **[Yazi](https://yazi-rs.github.io/)** - Gerenciador de janelas para o terminal, simples e altamente configurável.
+- **[Yazi](https://yazi-rs.github.io/)** - Gerenciador de arquivos rápido e altamente configurável para o terminal, inspirado no Ranger.
 
 ## Tmux (Gerenciador de terminal multiplexado)
 

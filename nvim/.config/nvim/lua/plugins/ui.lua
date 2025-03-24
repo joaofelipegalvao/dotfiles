@@ -8,37 +8,37 @@ return {
       opts.options.show_close_icon = false
     end,
   },
-  {
-    "b0o/incline.nvim",
-    dependencies = { "folke/tokyonight.nvim" },
-    event = "BufReadPre",
-    priority = 1200,
-    config = function()
-      local colors = require("tokyonight.colors").setup()
-      require("incline").setup({
-        highlight = {
-          groups = {
-            -- Personaliza a aparência dos arquivos
-            InclineNormal = { guibg = colors.magenta2, guifg = colors.bg },
-            InclineNormalNC = { guifg = colors.bg, guibg = colors.comment },
-          },
-        },
-        window = { margin = { vertical = 0, horizontal = 1 } },
-        hide = {
-          cursorline = true,
-        },
-        render = function(props)
-          local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
-          if vim.bo[props.buf].modified then
-            filename = "[+] " .. filename
-          end
-
-          local icon, color = require("nvim-web-devicons").get_icon_color(filename)
-          return { { icon, guifg = color }, { " " }, { filename } }
-        end,
-      })
-    end,
-  },
+  -- {
+  --   "b0o/incline.nvim",
+  --   dependencies = { "folke/tokyonight.nvim" },
+  --   event = "BufReadPre",
+  --   priority = 1200,
+  --   config = function()
+  --     local colors = require("tokyonight.colors").setup()
+  --     require("incline").setup({
+  --       highlight = {
+  --         groups = {
+  --           -- Personaliza a aparência dos arquivos
+  --           InclineNormal = { guibg = colors.magenta2, guifg = colors.bg },
+  --           InclineNormalNC = { guifg = colors.bg, guibg = colors.comment },
+  --         },
+  --       },
+  --       window = { margin = { vertical = 0, horizontal = 1 } },
+  --       hide = {
+  --         cursorline = true,
+  --       },
+  --       render = function(props)
+  --         local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
+  --         if vim.bo[props.buf].modified then
+  --           filename = "[+] " .. filename
+  --         end
+  --
+  --         local icon, color = require("nvim-web-devicons").get_icon_color(filename)
+  --         return { { icon, guifg = color }, { " " }, { filename } }
+  --       end,
+  --     })
+  --   end,
+  -- },
 
   {
     "nvim-lualine/lualine.nvim",
@@ -94,10 +94,6 @@ return {
         ]],
         },
       },
-
-      -- Configuração de outros recursos do snacks.nvim
-      scroll = { enabled = true },
-      statuscolumn = { enabled = true },
     },
     keys = {
       {

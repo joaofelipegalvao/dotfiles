@@ -19,7 +19,7 @@ return {
     opts = function(_, opts)
       -- Mescla as configurações personalizadas com as padrões do LazyVim
       opts.formatters_by_ft = vim.tbl_deep_extend("force", opts.formatters_by_ft or {}, {
-        java = { "google-java-format" }, -- Adiciona o google-java-format para Java
+        java = { { name = "google-java-format", cmd = "usr/local/bin/google-java-format" } },
       })
     end,
   },

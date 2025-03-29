@@ -41,6 +41,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.coding.mini-comment" },
     { import = "lazyvim.plugins.extras.lang.markdown" },
     { import = "lazyvim.plugins.extras.ai.copilot" },
+    { import = "lazyvim.plugins.extras.lang.docker" },
     { import = "plugins" },
   },
   defaults = {

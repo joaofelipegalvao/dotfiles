@@ -8,5 +8,6 @@ foo.*
 data
 .neoconf.json
 lazy-lock.json
+lazyvim.json
 LICENSE
 stylua.toml

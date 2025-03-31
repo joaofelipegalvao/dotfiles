@@ -56,3 +56,8 @@ keymap.set("n", "<C-w><left>", "<C-w><") -- Diminui largura
 keymap.set("n", "<C-w><right>", "<C-w>>") -- Aumenta largura
 keymap.set("n", "<C-w><up>", "<C-w>+") -- Aumenta altura
 keymap.set("n", "<C-w><down>", "<C-w>-") -- Diminui altura
+
+-- Diagnostics
+keymap.set("n", "<C-j>", function()
+  vim.diagnostic.goto_next()
+end, opts)

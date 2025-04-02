@@ -1,5 +1,5 @@
-[![screenshot-08032025-183411.jpg](https://i.postimg.cc/76VFLzvW/screenshot-08032025-183411.jpg)](https://postimg.cc/PpC33P5W)
-[![screenshot-08032025-184321.jpg](https://i.postimg.cc/tJsBHn9P/screenshot-08032025-184321.jpg)](https://postimg.cc/PvkWWxpr)
+![screenshot-08032025-183411.jpg](https://i.postimg.cc/K8GzdK3s/screenshot-02042025-001152.png)
+![screenshot-08032025-184321.jpg](https://i.postimg.cc/CLYLqZ7L/screenshot-02042025-001152-1.png)
 
 ## Dotfiles
 
@@ -32,7 +32,7 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
   - **[alacritty](https://github.com/alacritty/alacritty)** (Linux, Macos & Windows)
   - **[iterm2](https://iterm2.com/)** (Macos)
   - **[Ghostty](https://github.com/ghostty/ghostty)** - (Linux & Macos)
-- **[Tokyo Night Lazyvim](https://github.com/folke/tokyonight.nvim)**
+- **[Solarized Osaka Neovim](https://github.com/craftzdog/solarized-osaka.nvim)**
 
 ## Yazi (Gerenciador de arquivos)
 

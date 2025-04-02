@@ -15,6 +15,7 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
 - yazi
 - starship
 - Terminal Ghostty
+- Mise
 
 ## Neovim setup
 
@@ -41,6 +42,10 @@ Este repositório contém meus arquivos de configuração pessoais (dotfiles) pa
 ## Tmux (Gerenciador de terminal multiplexado)
 
 - **[Tmux](https://github.com/tmux/tmux)** - O tmux é um multiplexador de terminal que permite dividir o terminal em várias sessões, tornando o gerenciamento do terminal mais eficiente e flexível.
+
+## Mise (Gerenciador de configurações)
+
+- **[Mise](https://mise.jdx.dev/)** - Gerenciador de configurações para facilitar o gerenciamento de arquivos de configuração. O Mise permite organizar, sincronizar e versionar suas configurações de maneira mais prática.
 
 ## Configuração do Shell (macOS & Linux)
 

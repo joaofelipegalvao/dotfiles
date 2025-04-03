@@ -1,9 +1,7 @@
-theme = solarized_osaka_dark
+theme = Solarized Dark - Patched
 
 font-family = "PlemolJP Console NF"
 background = #031219
-# font-size = 13
-# font-codepoint-map = U+E000-U+F8FF=BlexMono Nerd Font
 
 window-padding-balance = true
 window-theme = ghostty

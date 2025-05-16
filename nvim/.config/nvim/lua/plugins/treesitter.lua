@@ -18,7 +18,11 @@ return {
         "rust",
         "scss",
         "sql",
+        "xml",
         "svelte",
+        "bash",
+        "html",
+        "markdown",
       })
 
       opts.playground = {

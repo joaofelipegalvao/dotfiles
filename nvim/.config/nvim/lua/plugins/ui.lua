@@ -7,20 +7,24 @@ return {
       opts.options.show_buffer_close_icons = false
       opts.options.show_close_icon = false
     end,
+    keys = {
+      { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
+      { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
+    },
   },
+
   -- {
   --   "b0o/incline.nvim",
-  --   dependencies = { "folke/tokyonight.nvim" },
+  --   dependencies = { "craftzdog/solarized-osaka.nvim" },
   --   event = "BufReadPre",
   --   priority = 1200,
   --   config = function()
-  --     local colors = require("tokyonight.colors").setup()
+  --     local colors = require("solarized-osaka.colors").setup()
   --     require("incline").setup({
   --       highlight = {
   --         groups = {
-  --           -- Personaliza a aparência dos arquivos
-  --           InclineNormal = { guibg = colors.magenta2, guifg = colors.bg },
-  --           InclineNormalNC = { guifg = colors.bg, guibg = colors.comment },
+  --           InclineNormal = { guibg = colors.magenta500, guifg = colors.base04 },
+  --           InclineNormalNC = { guifg = colors.violet500, guibg = colors.base03 },
   --         },
   --       },
   --       window = { margin = { vertical = 0, horizontal = 1 } },
@@ -62,6 +66,7 @@ return {
       }
     end,
   },
+
   {
     "folke/snacks.nvim",
     lazy = false,

@@ -1,9 +1,7 @@
-theme = Solarized Dark - Patched
+theme = /home/joaofelipe/ghq/github.com/joaofelipegalvao/tokyonight.nvim/extras/ghostty/tokyonight_night
 
 font-family = "PlemolJP Console NF"
-background = #031219
 
-window-padding-balance = true
 window-theme = ghostty
 
 cursor-style = block

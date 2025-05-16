@@ -98,27 +98,27 @@ format = '[[($all_status$ahead_behind )](fg:base08 bg:base01)]($style)'
 [nodejs]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [c]
 symbol = " "
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [php]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [java]
 symbol = " "
@@ -128,17 +128,17 @@ format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 [kotlin]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [haskell]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [python]
 symbol = ""
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [docker_context]
 symbol = ""

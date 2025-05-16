@@ -26,21 +26,23 @@ $time\
 [ ](fg:base0)\
 $line_break$character"""
 
-palette = 'solarized_dark'
+palette = 'tokyonight_storm'
 
-[palettes.solarized_dark]
-base0 = '#839395'
-base01 = '#002c38'
-base02 = '#268bd3'
-base03 = '#001419'
-base04 = '#849900'
-base05 = '#db302d'
-base06 = '#6d71c4'
-base07 = '#d23681'
+[palettes.tokyonight_storm]
+base0 = '#7aa2f7'
+base01 = '#394b70'
+base02 = '#24283b'
+base03 = '#1d202f'
+base04 = '#9ece6a'
+base05 = '#db4b4b'
+base06 = '#9d7cd8'
+base07 = '#bb9af7'
+base08 = '#c0caf5'
+base09 = '#414868'
 
 [os]
 disabled = false
-style = "bg:base02 fg:base03"
+style = "bg:base02 fg:base0"
 format = "[$symbol ]($style)"
 
 [os.symbols]
@@ -67,9 +69,9 @@ RedHatEnterprise = "󱄛"
 [username]
 disabled = true
 show_always = true
-style_user = "bg:base02 fg:base03"
-style_root = "bg:base02 fg:base03"
-format = '[$user ]($style)'
+style_user = "bg:base02 fg:base0"
+style_root = "bg:base02 fg:base0"
+format = '[ $user ]($style)'
 
 [directory]
 style = "fg:base03 bg:base0"
@@ -87,11 +89,11 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:base01"
-format = '[[ $symbol $branch ](fg:base0 bg:base01)]($style)'
+format = '[[ $symbol $branch ](fg:base08 bg:base01)]($style)'
 
 [git_status]
 style = "bg:base01"
-format = '[[($all_status$ahead_behind )](fg:base0 bg:base01)]($style)'
+format = '[[($all_status$ahead_behind )](fg:base08 bg:base01)]($style)'
 
 [nodejs]
 symbol = ""
@@ -99,7 +101,7 @@ style = "bg:base02"
 format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
 
 [c]
-symbol = ""
+symbol = " "
 style = "bg:base02"
 format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
 
@@ -119,9 +121,9 @@ style = "bg:base02"
 format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
 
 [java]
-symbol = ""
+symbol = " "
 style = "bg:base02"
-format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
+format = '[[ $symbol( $version) ](fg:base0 bg:base02)]($style)'
 
 [kotlin]
 symbol = ""
@@ -140,8 +142,8 @@ format = '[[ $symbol( $version) ](fg:base03 bg:base02)]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:base01"
-format = '[[ $symbol( $context) ](fg:base0 bg:base01)]($style)'
+style = "bg:base02"
+format = '[[ $symbol( $context) ](fg:base0 bg:base02)]($style)'
 
 [time]
 disabled = false
@@ -160,3 +162,4 @@ vimcmd_symbol = '[](bold fg:base04)'
 vimcmd_replace_one_symbol = '[](bold fg:base06)'
 vimcmd_replace_symbol = '[](bold fg:base06)'
 vimcmd_visual_symbol = '[](bold fg:base07)'
+
